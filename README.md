@@ -1,5 +1,3 @@
-# Test
--- Insert into user table
 INSERT INTO user (user_id, username, name, email, role) VALUES
 (1, 'bob', 'Bob Smith', 'bob.smith@example.com', 'Director'),
 (2, 'charlie', 'Charlie Brown', 'charlie.brown@example.com', 'Manager'),
@@ -47,13 +45,24 @@ INSERT INTO trade (trade_id, book_id, security_id, counterparty_id, quantity, un
 (7, 2, 1, 2, 15, 107.87, 'USD', 'buy', '2024-06-20', '2024-09-01', FALSE, 5),
 (8, 1, 1, 3, 65, 92.62, 'EUR', 'sell', '2023-10-16', '2024-08-04', FALSE, 3),
 (9, 5, 1, 4, 468, 103.54, 'GBP', 'buy', '2023-11-28', '2024-08-06', TRUE, 4),
-(10, 5, 1, 5, 212, 94.76, 'GBP', 'buy', '2023-12-21', '2024-08-16', FALSE, 5);
+(10, 5, 1, 5, 212, 94.76, 'GBP', 'buy', '2023-12-21', '2024-08-16', FALSE, 5)
+(11, 1, 3, 2, 150, 93.45, 'GBP', 'buy', '2024-07-01', '2024-08-15', TRUE, 2),
+(12, 4, 5, 1, 200, 89.50, 'USD', 'sell', '2024-06-15', '2024-08-10', FALSE, 3),
+(13, 2, 8, 4, 180, 100.25, 'GBP', 'buy', '2024-07-20', '2024-08-25', TRUE, 5),
+(14, 3, 4, 3, 220, 105.75, 'EUR', 'sell', '2024-05-10', '2024-07-15', FALSE, 1),
+(15, 5, 7, 2, 300, 98.60, 'JPY', 'buy', '2024-06-25', '2024-08-05', TRUE, 4),
+(16, 1, 6, 1, 160, 110.40, 'USD', 'sell', '2024-07-15', '2024-09-01', FALSE, 5),
+(17, 3, 5, 3, 175, 96.80, 'GBP', 'buy', '2024-06-01', '2024-08-20', TRUE, 2),
+(18, 2, 9, 2, 250, 102.35, 'USD', 'sell', '2024-05-25', '2024-08-12', FALSE, 4),
+(19, 4, 8, 5, 130, 115.90, 'EUR', 'buy', '2024-07-10', '2024-08-22', TRUE, 3),
+(20, 5, 10, 1, 190, 97.75, 'JPY', 'sell', '2024-06-05', '2024-08-30', FALSE, 2);
+
 
 -- Insert into book_user table
 INSERT INTO book_user (book_user_id, book_id, user_id) VALUES
 (1, 1, 1),
 (2, 1, 3),
-(3, 4, 4),
+(3, 4, 3),
 (4, 4, 4),
 (5, 3, 2),
 (6, 1, 1),
