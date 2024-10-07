@@ -1,4 +1,4 @@
-#include<iostream.h>
+#include<bits/stdc++.h>
 
 int main(){
   int num =110;
