@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 
 int main(){
-  cout<<"Hey I am Ayush Rai";
+  int num =110;
   return 0;
 }
