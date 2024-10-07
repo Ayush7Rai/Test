@@ -1,6 +1,9 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+#include <string>
 
-int main(){
-  int num =110;
+int main()
+{
+  int num = 110;
+  //
   return 0;
 }
